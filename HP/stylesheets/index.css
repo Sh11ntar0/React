@@ -1,0 +1,19 @@
+.wrapper{
+    padding: 0px 125px;
+    height: 800px;
+}
+.children1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 50px;
+}
+.grandchildren1{
+    width: 20%;
+    height: 100%;
+}
+.grandchildren1 img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,277 @@
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    border: solid 3px black;
+   
+}
+
+.top-container{
+    width: 100%;
+    border-bottom: solid 3px black;
+    
+}
+
+.bottom-container {
+    width: 100%;
+    height: 800px;
+    
+}
+
+.top-children1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-children2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.grand-children1 i{  
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.picture1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture1 img{
+    width: 70%;
+    height: 90%;
+    
+    
+}
+
+.table1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-detail {
+    background-color: rgb(247, 247, 138);
+    border-collapse: collapse;
+    width: 60%;
+    height: 100%;
+}
+table tr,table td{
+    border: solid 2px rgb(5, 5, 5);
+    
+}
+
+.user-faces {
+  display: flex;
+}
+
+.smile {
+
+}
+
+.smile i {
+  color: #EF5185;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.sad {
+
+}
+
+.sad i{
+  margin-left: 20px;
+  color: #6AB5D9;
+  font-weight: bold;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #d86666;
+  color: #FFF;
+  border-bottom: solid 4px #956262;
+  border-radius: 3px;
+  width: 60%;
+  height: 30%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-square:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+.first-bottom{
+    display:flex;
+    justify-content: center;
+    
+}
+.second-bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.third-bottom{
+    width: 100%;
+    height: 25%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.detail{
+    background-color: rgb(153, 151, 153);
+    border: solid 2px rgb(51, 50, 50);
+    
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+.line-bc {
+    padding: 20px 10px;
+    max-width: 450px;
+    margin: 15px auto;
+    text-align: right;
+    font-size: 14px;
+    background: rgb(247, 191, 87);
+  
+  }
+  
+  
+  .balloon6 {
+    width: 100%;
+    margin: 10px 0;
+    overflow: hidden;
+  }
+  
+  .balloon6 .faceicon {
+    float: left;
+    margin-right: -50px;
+    width: 40px;
+  }
+  
+  .balloon6 .faceicon img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .balloon6 .chatting {
+    width: 100%;
+    text-align: left;
+  }
+  .says {
+    display: inline-block;
+    position: relative; 
+    margin: 0 0 0 50px;
+    padding: 10px;
+    max-width: 250px;
+    border-radius: 12px;
+    background: #edf1ee;
+  }
+  
+  .says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px; 
+    left: -19px;
+    border: 8px solid transparent;
+    border-right: 18px solid #edf1ee;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+  }
+  .says p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .mycomment {
+    margin: 10px 0;
+  }
+  .mycomment p {
+    display: inline-block;
+    position: relative; 
+    margin: 0 10px 0 0;
+    padding: 8px;
+    max-width: 250px;
+    border-radius: 12px;
+    background: #30e852;
+    font-size: 15px;
+  }
+  
+  .mycomment p:after {
+    content: "";
+    position: absolute;
+    top: 3px; 
+    right: -19px;
+    border: 8px solid transparent;
+    border-left: 18px solid #30e852;
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+  }
+  #bms_send {
+    background-color:#eee;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 48px;
+    padding: 4px;
+}
+    #bms_send_message{
+        width: calc(100% - 75px);
+        line-height: 16px;
+        height: 48px;
+        padding: 14px 6px 0px 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        text-align: left;
+        box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset;
+        box-sizing: border-box;
+
+    }
+    #bms_send_btn {
+        width: 72px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 3em;
+        float: right;
+        color: black;
+        font-weight: bold;
+        background: #bcbcbc;
+        text-align: center;
+        border: 1px solid #bbb;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #bms_send_btn:hover {
+        background: #13178E; 
+        cursor: pointer;
+    }
+    
+  

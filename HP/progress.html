@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <title>Barter & Buy</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/common.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/progress.css" type="text/css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-container">
+
+        <div class="header-top">
+          <div class="header-top-left">
+            <a href="./index.html">
+              <img src="https://cdn.pixabay.com/photo/2013/07/12/12/36/letter-145996_1280.png" width="36px", height="36px">
+            </a>
+          </div>
+
+          <div class="header-top-right">
+            <div class="search-box">
+              <input class="header-search" type="search" placeholder="What are you looking for?">
+              <a href="./search-result.html">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="header-bottom">
+
+          <div class="header-bottom-left">
+            <div class="header-bottom-left-item">
+              <a class="header-link" href="/">
+                <i class="fas fa-exchange-alt fa-lg"></i>
+                <span>Barter</span>
+              </a>
+            </div>
+
+            <div class="header-bottom-left-item">
+              <a class="header-link" href="/">
+                <i class="fas fa-shopping-cart fa-lg"></i>
+                <span>Sell & Buy</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="header-bottom-right">
+
+            <div class="header-bottom-right-item">
+              <a class="header-link" href="./registProduct.html">
+                <i class="fas fa-dollar-sign fa-lg"></i>
+                <span>Add items for selling</span>
+              </a>
+            </div>
+
+            <div class="header-bottom-right-item">
+              <a class="header-link" href="/">
+                <i class="far fa-heart fa-lg"></i>
+                <span>My likes</span>
+              </a>
+            </div>
+
+            <div class="header-bottom-right-item">
+              <a class="header-link" href="./sign-up.html">
+                <i class="fas fa-user fa-lg"></i>
+                <span>My page</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <h2 class="page-title">Trading status</h2>
+
+    <ul class="progress-bar">
+      <li class="progress-status progress-active ">
+        Payment
+        <i class="fas fa-check"></i>
+      </li>
+      <li class="progress-status progress-active ">
+        Send items
+        <i class="fas fa-check"></i>
+      </li>
+      <li class="progress-status progress-none">
+        Receive items
+        <i class="fas fa-check"></i>
+      </li>
+      <li class="progress-status progress-none">
+        Review
+        <i class="fas fa-check"></i>
+      </li>
+    </ul>
+
+    <p class="turn">Now, your turn!</p>
+
+    <p class="text">Do you want to get a refund?</p>
+    <div class="trading-status-buttons">
+      <button class="grey-button" type="button" name="refound" value="refound">Refound</button>
+    </div>
+
+    <p class="text">if you like the items</p>
+    <div class="trading-status-buttons">
+      <button class="red-button" type="button" name="received" value="received">Received</button>
+    </div>
+
+  </body>
+</html>

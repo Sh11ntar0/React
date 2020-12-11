@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <title>Barter & Buy</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/common.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/registProduct.css" type="text/css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="regist-header">
+      <div class="regist-header-logo">
+        <a href="./index.html">
+          <img src="https://cdn.pixabay.com/photo/2013/07/12/12/36/letter-145996_1280.png" width="36px", height="36px">
+        </a>
+        <p class="regist-logo-name">Barter & Buy</p>
+      </div>
+    </header>
+
+    <div class=regist-wrapper>
+
+      <div class="main-container">
+
+        <div class="inputItems">
+          <p class="itemName">Product image</p>
+          <input class="imageInput" type="file">
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Product name</p>
+          <input class="ItemInput" type="text" placeholder="What is the product?">
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Product details</p>
+          <textarea class="ItemInput detailInput" placeholder="Write some product descriptions"></textarea>
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Price</p>
+          <input class="ItemInput" type="text">
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Conditions</p>
+          <div class="sort-box">
+            <select name="sort">
+              <option value="Best Match">New</option>
+              <option value="Like new">Like new</option>
+              <option value="Good">Good</option>
+              <option value="Fair">Fair</option>
+              <option value="Poor">Poor</option>
+              </select>
+          </div>
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Category</p>
+          <div class="sort-box">
+            <select name="sort">
+              <option value="Furniture">Furniture</option>
+              <option value="Clothing">Clothing</option>
+              </select>
+          </div>
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Delivery or in person</p>
+          <div class="sort-box">
+            <select name="sort">
+              <option value="Delivery">Delivery</option>
+              <option value="In person">In person</option>
+              </select>
+          </div>
+        </div>
+
+        <div class="inputItems">
+          <p class="itemName">Sell or Barter</p>
+          <div class="sort-box">
+            <select name="sort">
+              <option value="Sell">Sell</option>
+              <option value="Barter">Barter</option>
+              </select>
+          </div>
+        </div>
+
+        <div class="inputItems">
+            <p class="itemName">What would you like to trade for?</p>
+            <input class="ItemInput" type="text" placeholder="e.g. TV, Macbook, speaker, etc...">
+        </div>
+
+        <div class="register-butons">
+          <button class="red-button" type="button" name="clear" value="register">Add</button>
+        </div>
+
+        <div class="register-butons">
+          <button class="grey-button" type="button" name="clear" value="save-draft">Save draft</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

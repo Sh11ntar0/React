@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For header */
+.header {
+    height: 14vh;
+    box-shadow: 0px 0px 10px;
+    border-bottom: 1px solid #F5F5F5;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 700px;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    line-height: 7vh;
+}
+
+.header-top-left {
+    min-width: 36px;
+    margin-right: 45px;
+    padding-top: 5px;
+}
+
+.header-top-right {
+    width: 100%;
+}
+
+.header-search {
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 0;
+    background-color: #F5F5F5;
+    padding-left: 15px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box i {
+    position: absolute;
+    top: 2.5vh;
+    right: 10px;
+}
+
+ .search-box a:visited {
+    color: #222222;
+ }
+ 
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    line-height: 7vh;
+}
+
+.header-bottom-left {
+    display: flex;
+    font-weight: bold;
+    min-width: 250px;
+}
+
+.header-bottom-left-item {
+    margin-right: 30px;
+}
+
+.header-bottom-left-item a i {
+    color: #EB352D;
+    margin-right: 3px;
+
+}
+
+.header-link {
+    text-decoration: none;
+    color: #222222;
+}
+
+.header-bottom-right {
+    display: flex;
+    min-width: 450px;
+}
+
+.header-bottom-right-item a i {
+    margin-right: 3px;
+}
+
+.header-bottom-right-item {
+    margin-left: 30px;
+}
+
+.regist-header-logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    min-width: 250px;
+    margin: 50px auto;
+  }
+  
+  .regist-logo-name {
+    margin: auto;
+    font-size: 31px;
+  }
+  
+
+/* For maincontaints */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+.regist-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+    padding-bottom: 100px;
+}
+
+
+/* For buttons */
+.red-button {
+    background-color: #EA342D;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.grey-button {
+    background-color: #AAAAAA;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
