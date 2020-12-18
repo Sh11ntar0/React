@@ -40,7 +40,10 @@ class Clock extends React.Component {
       </div>
     )
   }
-
-
 }
-export default Clock;
+
+export default Clock
+
+Clock.defaultProps = {
+  date: new Date()
+}
