@@ -19,3 +19,14 @@ Web技術の進化により、Webサイト上で出来ることが増えてい�
 - ES2015の書き方を学ぶ
 - ステート(state)とは何か
 - 実際にコンポーネントを作って追加してみる
+
+[Day 3](./memorandum/Day3.md)
+---
+
+- ライフサイクルメソッドを使ってみる
+- React Hooksを使ってみる
+
+Reference
+---
+
+[Getting Started – React](https://ja.reactjs.org/docs/getting-started.html)
