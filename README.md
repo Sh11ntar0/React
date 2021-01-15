@@ -26,6 +26,20 @@ Web技術の進化により、Webサイト上で出来ることが増えてい�
 - ライフサイクルメソッドを使ってみる
 - React Hooksを使ってみる
 
+- ES2015の書き方を学ぶ
+- ステート(state)とは何か
+- 実際にコンポーネントを作って追加してみる
+
+[Day 4](./memorandum/Day4.md)
+---
+
+- Styled-componentをさわってみる
+- Styled-componentでレスポンシブのページを作る
+
+
+[Day 4](./memorandum/Day5.md)
+---
+
 Reference
 ---
 
