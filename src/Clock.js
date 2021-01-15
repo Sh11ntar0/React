@@ -26,6 +26,7 @@ countUp() {
   presentCount += 1
   this.setState({count: presentCount})
 }
+
   render() {
     return (
       <div>
