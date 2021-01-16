@@ -9,6 +9,7 @@ import {
 import Index from './pages/Index'
 import ProductDetai from './pages/ProductDetai'
 import RegistProduct from './pages/RegistProduct'
+import Header from './components/Header'
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
       <Reset />
       <Router>
         <Switch>
+          <Route path='/header'>
+            <Header />
+          </Route>
           <Route path='/product-detail'>
             <ProductDetai />
           </Route>
