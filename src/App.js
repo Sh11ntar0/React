@@ -10,6 +10,7 @@ import Index from './pages/Index'
 import ProductDetai from './pages/ProductDetai'
 import RegistProduct from './pages/RegistProduct'
 import Header from './components/Header'
+import './App.css'
 
 const App = () => {
   return (

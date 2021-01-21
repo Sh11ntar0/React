@@ -1,10 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styled from "styled-components"
-import media from "styled-media-query"
+import styled from 'styled-components'
 
 const HeaderStye = styled.div`
-height: 14vh;
+height: 108px;
 box-shadow: 0px 0px 10px;
 border-bottom: 1px solid #F5F5F5;
 width: 100%;
@@ -31,6 +30,9 @@ min-width: 36px;
 width: 36px;
 margin-right: 45px;
 padding-top: 5px;
+img {
+  max-width: 100%;
+}
 }
 
 .right {
@@ -135,9 +137,9 @@ const Header = props => {
 
           <div className="right">
             <div className="search-box">
-              <input class="search" type="search" placeholder="What are you looking for?" />
+              <input className="search" type="search" placeholder="What are you looking for?" />
               <NavLink to="/search-result" activeClassName="active">
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
               </NavLink>
             </div>
           </div>

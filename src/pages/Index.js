@@ -1,32 +1,32 @@
-import { Link } from 'react-router-dom'
-import logo from '../logo.svg'
-import '../App.css'
-import Clock from '../Clock'
-import ClockWithUse from '../ClockWithUse'
+import React from 'react'
+import styled from 'styled-components'
 
+import Wrapper from '../components/Wrapper'
+import H2 from '../components/HeadlineLevel2'
 
-const Index = props => {
+const ListStyle = styled.ul`
+display: grid;
+grid-gap: 72px;
+grid-auto-rows: 200px;
+grid-template-columns: repeat(auto-fill, 200px);
+margin-top: 20px;
+`
+
+const ImageListItem = [...Array(8)].map(() => (
+  <li><img src="./img/blough-heavy-duty-bed-frame.jpg" alt=""/></li>
+))
+
+const ProductDetail = props => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World! <code>src/App.js</code> and save to reload.
-        </p>
-        <p><Link to='/product-detail'>to product-detail</Link></p>
-        <p><Link to='/regist-product'>to regist-product</Link></p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Clock date={new Date()} />
-        <ClockWithUse />
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <Wrapper>
+        <H2>See what's selling</H2>
+        <ListStyle>
+          {ImageListItem}
+        </ListStyle>
+      </Wrapper>
+    </React.Fragment>
+  )
 }
-export default Index
+
+export default ProductDetail
