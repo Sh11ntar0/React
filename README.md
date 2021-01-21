@@ -42,6 +42,12 @@ Web技術の進化により、Webサイト上で出来ることが増えてい�
 
 - React-routerを使って複数ページを作る
 
+
+[Day 6](./memorandum/Day6.md)
+---
+
+- React-routerを使って実際にサイトを作る
+
 Reference
 ---
 
