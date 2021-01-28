@@ -1,6 +1,7 @@
 import React from 'react'
-import styled from "styled-components"
+import styled from 'styled-components'
 import Header from './Header'
+import LefNav from './LeftNav'
 
 const WrapperStyle = styled.div`
 margin: 0 auto;
@@ -12,6 +13,7 @@ max-width: 1020px;
 
 const Wrapper = props => (
   <React.Fragment>
+    <LefNav />
     <Header />
     <WrapperStyle className="wrapper">
       {props.children}

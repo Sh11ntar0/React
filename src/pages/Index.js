@@ -12,8 +12,8 @@ grid-template-columns: repeat(auto-fill, 200px);
 margin-top: 20px;
 `
 
-const ImageListItem = [...Array(8)].map(() => (
-  <li><img src="./img/blough-heavy-duty-bed-frame.jpg" alt=""/></li>
+const ImageListItem = [...Array(8)].map((_, i) => (
+  <li key={i}><img src="./img/blough-heavy-duty-bed-frame.jpg" alt=""/></li>
 ))
 
 const ProductDetail = props => {
