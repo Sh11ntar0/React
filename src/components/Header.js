@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
+import HamburgerMenu from './HamburgerMenu'
+
 const HeaderStye = styled.div`
 height: 108px;
 box-shadow: 0px 0px 10px;
@@ -115,7 +117,7 @@ const Header = props => {
                 <div className="top">
                     <div className="left">
                         <NavLink to='/' activeClassName="active">
-                            <img src="./img/photo/letter-145996_1280.png" />
+                            <img src="./img/photo/letter-145996_1280.png" alt="logo" />
                         </NavLink>
                     </div>
 
@@ -127,6 +129,7 @@ const Header = props => {
                             </NavLink>
                         </div>
                     </div>
+                    <HamburgerMenu />
                 </div>
 
                 <div className="bottom">
