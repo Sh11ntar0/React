@@ -112,6 +112,12 @@ const Pokemon = props => {
     <React.Fragment>
       <Wrapper>
         <H2>Pokemon</H2>
+        <Select>
+          <option value="pikachu">pikachu</option>
+          <option value="fearow">fearow</option>
+          <option value="nidorino">nidorino</option>
+          <option value="rhyhorn">rhyhorn</option>
+        </Select>
         <UL>
           <ListItem />
         </UL>
@@ -127,6 +133,6 @@ export default Pokemon
 
 - まずはピカチュウを表示させましょう
 - ユーザーの操作で変わるものは何かを考え、それを`useState`で管理しょましょう
-- `findBy`の中でaxiosを実行します
+- `findBy`の中でaxiosを実行します。 **`findBy`は`async`なので、`return`で受け取れるのは何か...**
 - サンプルapi: [https://pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu)
 - プルダウン(`<select>`)変更時のイベントは`<Select onChange={e => setMonsterName(e.target.value)}>`のようにすれば選択された`value`の値が取得できます。
