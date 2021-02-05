@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Reset } from 'styled-reset'
 import {
   BrowserRouter as Router,
@@ -10,10 +10,16 @@ import Index from './pages/Index'
 import ProductDetail from './pages/ProductDetail'
 import RegistProduct from './pages/RegistProduct'
 import Header from './components/Header'
+import './App.css'
+
+export const Context = React.createContext()
 
 const App = () => {
+  const [expanded, setExpanded] = useState(false)
+  const store = { expanded: expanded, toggleExpand: setExpanded }
+
   return (
-    <React.Fragment>
+    <Context.Provider value={store}>
       <Reset />
       <Router>
         <Switch>
@@ -31,8 +37,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    </React.Fragment>
-  )
+    </Context.Provider>)
 }
 
 export default App;
