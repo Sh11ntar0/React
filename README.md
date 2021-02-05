@@ -48,6 +48,16 @@ Web技術の進化により、Webサイト上で出来ることが増えてい�
 
 - React-routerを使って実際にサイトを作る
 
+[Day 7](./memorandum/Day7.md)
+---
+
+- useContextを使ってサイト全体に影響する状態を管理する
+
+[Day 8](./memorandum/Day8.md)
+---
+
+- axiosを使ってapiから画像を取得して画面に表示してみる
+
 Reference
 ---
 
