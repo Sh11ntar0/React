@@ -10,6 +10,7 @@ import Index from './pages/Index'
 import ProductDetai from './pages/ProductDetai'
 import RegistProduct from './pages/RegistProduct'
 import Header from './components/Header'
+import Pokemon from './pages/Pokemon'
 import './App.css'
 
 export const Context = React.createContext({})
@@ -31,6 +32,9 @@ const App = () => {
           </Route>
           <Route path='/regist-product'>
             <RegistProduct />
+          </Route>
+          <Route path='/pokemon'>
+            <Pokemon />
           </Route>
           <Route path='/'>
             <Index />
