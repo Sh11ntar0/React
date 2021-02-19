@@ -60,6 +60,11 @@ Web技術の進化により、Webサイト上で出来ることが増えてい�
 
 - axiosを使ってapiから画像を取得して画面に表示してみる
 
+[Day 9](./memorandum/Day9.md)
+---
+
+- Atomic Designとは何かを学ぶ
+
 Reference
 ---
 

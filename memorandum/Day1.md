@@ -16,7 +16,7 @@ npm start
 
 参考: [新しい React アプリを作る – React](https://ja.reactjs.org/docs/create-a-new-react-app.html)
 
-コンポーネント思考とは何かを学ぶ
+コンポーネント指向とは何かを学ぶ
 ---
 
 ### コンポーネントの特徴
