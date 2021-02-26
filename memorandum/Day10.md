@@ -77,8 +77,7 @@ export default firebase;
 export const auth = auth_obj;
 ```
 
-4. `src/pages/Signin.js`の実装
----
+## 4. `src/pages/Signin.js`の実装
 
 ```js
 import React, { useState, useEffect } from 'react'
@@ -199,7 +198,7 @@ export default Signin
 
 時間があまったら
 
-## 4. ログインしていないと遷移できないページを作る
+## 5. ログインしていないと遷移できないページを作る
 
 参考: [How to create guarded routes for your React\-App \| by Lukas Kiefer \| Netcetera Tech Blog](https://blog.netcetera.com/how-to-create-guarded-routes-for-your-react-app-d2fe7c7b6122)
 
