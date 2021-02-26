@@ -200,6 +200,19 @@ const Signin = props => {
 export default Signin
 ```
 
-> 参考: [React \+ Firebase入門](https://zenn.dev/masalib)<br>
+時間があまったら
+
+4. ログインしていないと遷移できないページを作る
+---
+
+参考: [How to create guarded routes for your React\-App \| by Lukas Kiefer \| Netcetera Tech Blog](https://blog.netcetera.com/how-to-create-guarded-routes-for-your-react-app-d2fe7c7b6122)
+
+1. `src/pages/MyPage.js`を作成
+1. `src/usecase/GuardedRoute.js`を作成
+1. useContext => [Day8](./Day8.md) を使って画面遷移を制限
+
+---
+
+> [React \+ Firebase入門](https://zenn.dev/masalib)<br>
 [ReactにFirebaseを使ったログイン機能を実装する \- Qiita](https://qiita.com/kaitaku/items/6cfbcfed55cc6e817b20)
 
