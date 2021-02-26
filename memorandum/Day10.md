@@ -1,8 +1,7 @@
 FirebaseのAuth機能を実装してみる
 ===
 
-1. Firebaseのパッケージをインストール
----
+## 1. Firebaseのパッケージをインストール
 
 ```bash
 npm install Firebase
@@ -15,8 +14,7 @@ yarn add firebase
 ```
 
 
-2. サンプルページ作成
----
+## 2. サンプルページ作成
 
 1. `src/pages/Signin.js`を作成
     ```js
@@ -48,8 +46,7 @@ import Signin from './pages/Signin'
 
 
 
-3. 設定ファイルの実装
----
+## 3. 設定ファイルの実装
 
 1. `env.local`にAPIKeyをコピペして再起動(後ほどSlackで送ります)
 
@@ -202,8 +199,7 @@ export default Signin
 
 時間があまったら
 
-4. ログインしていないと遷移できないページを作る
----
+## 4. ログインしていないと遷移できないページを作る
 
 参考: [How to create guarded routes for your React\-App \| by Lukas Kiefer \| Netcetera Tech Blog](https://blog.netcetera.com/how-to-create-guarded-routes-for-your-react-app-d2fe7c7b6122)
 
