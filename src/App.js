@@ -12,6 +12,9 @@ import RegistProduct from './pages/RegistProduct'
 import Header from './components/Header'
 import Pokemon from './pages/Pokemon'
 import Signin from './pages/Signin'
+import MyPage from './pages/MyPage'
+
+import GuardedRoute from './utils/GuardedRoute'
 import './App.css'
 
 export const Context = React.createContext({})
@@ -40,6 +43,7 @@ const App = () => {
           <Route path='/signin'>
             <Signin />
           </Route>
+          <GuardedRoute path='/mypage' component={MyPage} auth={false} />
           <Route path='/'>
             <Index />
           </Route>
