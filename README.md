@@ -70,6 +70,11 @@ Web技術の進化により、Webサイト上で出来ることが増えてい�
 
 - FirebaseのAuth機能を実装してみる
 
+[Day 11](./memorandum/Day11.md)
+---
+
+- Auth機能とRoutingを使って画面遷移を制限する
+
 Reference
 ---
 
