@@ -4,7 +4,7 @@ Day 1
 What is component-oriented?
 ---
 
-### コンポーネントの特徴
+### Component Features
 
 - Encapsulated
 - Replaceable

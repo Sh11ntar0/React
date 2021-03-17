@@ -122,7 +122,7 @@ Let's create a Functional component
     ...
 
     <Clock date={new Date()} />
-    <ClockWithUse .>
+    <ClockWithUse />
     ```
 
 Practice
